@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/redhat-gamedev/srt-web-client#readme",
     "scripts": {
-        "start": "DEBUG=myapp:* node bin/www",
+        "start": "DEBUG=* node bin/www",
         "test": "npm run eslint",
         "dev": "browser-sync start --server --serveStatic ./src --files './src/**/*.*' --directory --no-notify",
         "eslint": "eslint ./src --ext .js",
@@ -36,7 +36,7 @@
         "morgan": "~1.9.1",
         "phaser": "~3.52.0",
         "protobufjs": "^6.10.2",
-        "rhea": "^1.0.24",
+        "rhea": "^2.0.4",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
